@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
-          src="./next.svg"
+          src="/next.svg"
           alt="Next.js logo"
           width={180}
           height={38}
@@ -14,7 +14,7 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            Get started by groundpound your mom{" "}
+            Let's Get started! {" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
               app/page.tsx
             </code>
@@ -32,7 +32,7 @@ export default function Home() {
           >
             <Image
               className="dark:invert"
-              src="./vercel.svg"
+              src="/vercel.svg"
               alt="Vercel logomark"
               width={20}
               height={20}
@@ -58,7 +58,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="./file.svg"
+            src="/file.svg"
             alt="File icon"
             width={16}
             height={16}
@@ -73,7 +73,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="./window.svg"
+            src="/window.svg"
             alt="Window icon"
             width={16}
             height={16}
@@ -88,7 +88,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="./globe.svg"
+            src="/globe.svg"
             alt="Globe icon"
             width={16}
             height={16}
