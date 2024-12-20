@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   output: "export",
   assetPrefix: "/portfolio/",
   images:{
-    unoptimized: true,
+    unoptimized: false,
   },
 };
 
